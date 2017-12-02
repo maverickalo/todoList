@@ -1,0 +1,56 @@
+.header {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.checkBox {
+  vertical-align: middle;
+  text-align: center;
+}
+.checkboxtext {
+  padding-left: 10px;
+}
+.addTodo {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.removeAll {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+}
+li input[type='checkbox'] {
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+.finished {
+  text-decoration: line-through;
+  color: red;
+}
+.completedText {
+  padding-left: 10px;
+  font-style: italic;
+}
